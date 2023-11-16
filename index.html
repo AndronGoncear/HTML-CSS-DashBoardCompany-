@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Company</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <div class="company">
+        <h2>Company</h2>
+        <hr size="2px" color="#aea5a5" />
+        <ul id="navbar">
+          <li class="dash static1">
+            <a
+              href="index.html"
+              target="_blank"
+              onmouseover="mouse_over()"
+              onmouseout="mouse_out()"
+            >
+              <img
+                class="image-main"
+                src="/icons_exam_task1/dashboard_gray.svg"
+                alt=""
+                id="dashimg"
+              />
+              <span class="prof">Dashboard</span></a
+            >
+          </li>
+          <li class="user">
+            <a
+              href="Profile.html"
+              target="_blank"
+              onmouseover="mouse_over1()"
+              onmouseout="mouse_out1()"
+            >
+              <img
+                src="/icons_exam_task1/account_gray.svg"
+                alt=""
+                id="userli"
+              />
+              User Profile</a
+            >
+          </li>
+          <li class="maps">
+            <a href="#">
+              <img src="/icons_exam_task1/map_gray.svg" alt="" />
+              Maps</a
+            >
+          </li>
+          <li class="notification">
+            <a href="#">
+              <img src="/icons_exam_task1/notify_gray.svg" alt="" />
+              Notifications</a
+            >
+          </li>
+          <li class="support">
+            <a href="#">
+              <img src="/icons_exam_task1/support_gray.svg" alt="" />
+              Support</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div class="dashboard">
+        <div class="vl"></div>
+        <div class="picture">
+          <img src="/icons_exam_task1/menu.png" alt="" />
+        </div>
+        <h2 id="d">Dashboard</h2>
+        <div class="part1">
+          <div class="used">
+            <div class="square1">
+              <img src="/icons_exam_task1/data_white.svg" alt="" />
+            </div>
+            <div class="p1">Used Space</div>
+            <div class="p2">49/50 GB</div>
+            <hr color="lightgray" />
+            <div class="p3">
+              <img src="/icons_exam_task1/alert.png" alt="" />
+              <span>Get more space...</span>
+            </div>
+          </div>
+          <div class="revenue">
+            <div class="square2">
+              <img src="/icons_exam_task1/shop_white.svg" alt="" />
+            </div>
+            <div class="p1">Revenue</div>
+            <div class="p2">$ 34,245</div>
+            <hr size="3px" color="lightgray" />
+            <div class="p3">
+              <img src="/icons_exam_task1/calendar.png" alt="" />
+              <span>Last 24 Hours</span>
+            </div>
+          </div>
+          <div class="fixed">
+            <div class="square3">
+              <img src="/icons_exam_task1/tag_white.svg" alt="" />
+            </div>
+            <div class="p1">Fixed Issues</div>
+            <div class="p2">75</div>
+            <hr size="3px" color="lightgray" />
+            <div class="p3">
+              <img src="/icons_exam_task1/down.png" alt="" />
+              <span>Tracked from Github</span>
+            </div>
+          </div>
+          <div class="folowers">
+            <div class="square4">
+              <img src="/icons_exam_task1/paperplane_white.svg" alt="" />
+            </div>
+            <div class="p1">Followers</div>
+            <div class="p2">+ 245</div>
+            <hr size="3px" color="lightgray" />
+            <div class="p3">
+              <img src="/icons_exam_task1/time.png" alt="" />
+              <span>Just updated</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="part2">
+          <div class="sales">
+            <div class="square21">
+              <img src="/icons_exam_task1/graphics.svg" alt="" />
+            </div>
+            <div class="p21">Daily Sales</div>
+            <div class="p22">55% increase in today sales</div>
+            <hr size="3px" color="lightgray" />
+            <div class="p23">
+              <img src="/icons_exam_task1/time.png" alt="" />
+              <span>updated 4 minutes ago</span>
+            </div>
+          </div>
+
+          <div class="email">
+            <div class="square22">
+              <img src="/icons_exam_task1/graphics.svg" alt="" />
+            </div>
+            <div class="p21">Email Subscriptions</div>
+            <div class="p22">Last Compaign Performance</div>
+            <hr size="3px" color="lightgray" />
+            <div class="p23">
+              <img src="/icons_exam_task1/time.png" alt="" />
+              <span>compaign sent 2 days ago</span>
+            </div>
+          </div>
+          <div class="tasks">
+            <div class="square23">
+              <img src="/icons_exam_task1/graphics.svg" alt="" />
+            </div>
+            <div class="p21">Completed Tasks</div>
+            <div class="p22">Last Compaign Performance</div>
+            <hr size="3px" color="lightgray" />
+            <div class="p23">
+              <img src="/icons_exam_task1/time.png" alt="" />
+              <span>compaign event 2 days ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="part3">
+          <div class="bags">
+            <div class="square31">
+              <form action="#" method="get" id="form1">
+                <span>Tasks:</span>
+                <button class="Bugs static">
+                  <img
+                    src="/icons_exam_task1/bug.svg"
+                    alt="Кнопка «button»"
+                  />Bugs
+                </button>
+                <button class="Website">
+                  <img
+                    src="/icons_exam_task1/web.svg"
+                    alt="Кнопка «button»"
+                  />Website
+                </button>
+                <button class="Server">
+                  <img
+                    src="/icons_exam_task1/cloud.svg"
+                    alt="Кнопка «button»"
+                  />Server
+                </button>
+              </form>
+            </div>
+            <div class="task">
+              <form action="#" id="form0">
+                <label>
+                  <input type="checkbox" checked />
+                  <span class="sign"
+                    >Sign contact for "What are conference organizers afraid
+                    of?"</span
+                  >
+                </label>
+                <div class="btn">
+                  <img src="/icons_exam_task1/edit.png" alt="" />
+                  <img src="/icons_exam_task1/remove.png" alt="" />
+                </div>
+                <hr size="3px" color="lightgray" />
+                <label>
+                  <input type="checkbox" />
+                  <span class="sign"
+                    >Lines From Great Russian literature? Or E-mails From My
+                    Boss?
+                  </span>
+                </label>
+                <div class="btn">
+                  <img src="/icons_exam_task1/edit.png" alt="" />
+                  <img src="/icons_exam_task1/remove.png" alt="" />
+                </div>
+                <hr size="3px" color="lightgray" />
+                <label>
+                  <input type="checkbox" />
+                  <span class="sign"
+                    >Sign contact for "What are conference organizers afraid
+                    of?"</span
+                  >
+                </label>
+                <div class="btn">
+                  <img src="/icons_exam_task1/edit.png" alt="" />
+                  <img src="/icons_exam_task1/remove.png" alt="" />
+                </div>
+                <hr size="3px" color="lightgray" />
+                <label>
+                  <input type="checkbox" checked />
+                  <span class="sign"
+                    >Sign contact for "What are conference organizers afraid
+                    of?"</span
+                  >
+                </label>
+                <div class="btn">
+                  <img src="/icons_exam_task1/edit.png" alt="" />
+                  <img src="/icons_exam_task1/remove.png" alt="" />
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="employeers">
+            <div class="square32">
+              <div class="emp">Employees Stats</div>
+              <div class="new">New employeers on 19th September, 2019</div>
+            </div>
+            <table class="tabl">
+              <tbody>
+                <tr class="first_line">
+                  <td>ID</td>
+                  <td>Name</td>
+                  <td>Salary</td>
+                  <td>Country</td>
+                </tr>
+                <div class="horizontal-line"></div>
+                <tr>
+                  <td>1</td>
+                  <td>Dakota Rice</td>
+                  <td>$36.738</td>
+                  <td>Niger</td>
+                </tr>
+                <div class="horizontal-line1"></div>
+                <tr>
+                  <td>1</td>
+                  <td>Dakota Rice</td>
+                  <td>$36.738</td>
+                  <td>Niger</td>
+                </tr>
+                <div class="horizontal-line2"></div>
+                <tr>
+                  <td>1</td>
+                  <td>Dakota Rice</td>
+                  <td>$36.738</td>
+                  <td>Niger</td>
+                </tr>
+                <div class="horizontal-line3"></div>
+                <tr>
+                  <td>1</td>
+                  <td>Dakota Rice</td>
+                  <td>$36.738</td>
+                  <td>Niger</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <footer>
+          <div class="footer">
+            <hr size="1px" color="grey" />
+            <div class="half">
+              <span>ABOUT</span>
+              <span>BLOG</span>
+              <span>LICENSES</span>
+            </div>
+            <div class="text-right">
+              <span>2019 - made with love</span>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script>
+      function mouse_over() {
+        document.getElementById("dashimg").src = "dashboard_white.svg";
+        console.log();
+      }
+
+      function mouse_out() {
+        document.getElementById("dashimg").src = "dashboard_gray.svg";
+      }
+      function mouse_over1() {
+        document.getElementById("userli").src = "account_white.svg";
+        console.log();
+      }
+
+      function mouse_out1() {
+        document.getElementById("userli").src = "account_gray.svg";
+      }
+    </script>
+  </body>
+</html>

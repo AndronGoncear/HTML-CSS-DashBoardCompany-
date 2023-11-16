@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="/style_prof.css">
+</head>
+<body>
+    <div class="wrapper">
+            <div class="company">
+                <h2>Company</h2>
+                <hr  size="3px" color ="grey">
+                <ul id="navbar">
+                    <li class="dash"><a href="index.html" target="_blank"  onmouseover="mouse_over()" onmouseout="mouse_out()">
+                        <img class="image-main" id="dashimg" src="/icons_exam_task1/dashboard_gray.svg" alt=""> 
+                        Dashboard</a> </li>
+                    <li class="user static"><a href="Profile.html" target="_blank" onmouseover="mouse_over1()" onmouseout="mouse_out1()" >
+                        <img src="/icons_exam_task1/account_gray.svg" alt="" id="userli">
+                        <span class="prof">User Profile</span></a> </li>
+                    <li class="maps"><a href="#">
+                        <img src="/icons_exam_task1/map_gray.svg" alt="">
+                        Maps</a></li>
+                    <li class="notification"><a href="#">
+                        <img src="/icons_exam_task1/notify_gray.svg" alt="">
+                        Notifications</a></li>
+                    <li class="support"><a href="#">
+                        <img src="/icons_exam_task1/support_gray.svg" alt="">
+                        Support</a></li>
+                </ul>
+            </div>
+        <div class="profile">
+         
+            <div class="prof1">
+                <div class="vl"></div>
+                <h2 class="usser">User Profile</h2>
+                <div class="edit">
+                    <div class="emp">Edit Profile</div>
+                    <div class="new">Complete your profile</div>
+                </div>
+               
+                    <form action="#" id="form1">
+                    <ul>           
+                            <li>
+                                <li class="comp1">Company</li>
+                                <li class="comp1">Username</li>
+                                <li>Email address</li> 
+                            </li>
+                    </ul>
+                    <ul>
+                                            
+                            <li class="comp2">
+                                <input type="text" name="Company" >
+                                <input type="text" name="User" >
+                                <input type="email" name="email" >
+                            </li>                                  
+                        
+                    </ul>
+
+                    <ul>
+                        <li>
+                            <li class="comp11">First Name</li>
+                            <li>Last Name</li>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="comp3">
+                            <input class="comp3" type="text" name="first_name" >
+                            <input class="comp3" type="text" name="last_name" >
+
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="comp5">
+                            <li>Address</li>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="comp4">
+                        <input class="comp4"type="text" name="address" >
+                        </li>
+                    </ul>
+
+                    <ul>
+                    
+                        <li>
+                            <li class="comp111">City</li>
+                            <li class="comp1111">Country</li>
+                            <li>Postal code</li> 
+                        </li>
+                    </ul>
+                    
+                    <ul>
+                        <li class="comp2">
+                            <input type="text" name="city" >
+                            <input type="text" name="country" >
+                            <input type="text" name="postal_code" >
+
+                        </li>
+                    </ul>
+                    
+                    <ul>
+                    
+                        <li class="comp">
+                            <li>About me</li>
+                        
+                        </li>
+                    </ul>                
+            
+                    <textarea name="me" id="me" cols="30" rows="2"></textarea>                                  
+
+                    <input type="submit" name="submit" value="UPDATE PROFILE" id="sub">
+                
+                </form>
+       
+                <div id="ceo">
+                        <div class="photo">
+                            <img src="/icons_exam_task1/v2_600x600.jpg" alt="">
+                        </div>
+                        <div class="ceo">CEO / CO-FOUNDER</div>
+                        <div class="alec">Alec Thompson</div>
+                        <p>It was clear to me as an observer that there was a big game of political maneuvering going on. People were scared to speak up,
+                        speak out, or to tell the truth. They feared for their jobs.</p>
+                </div>
+            </div>
+            <div class="picture">
+                <img src="/icons_exam_task1/menu.png" alt="">
+            </div> 
+            <hr1  size="3px" color ="grey">
+            <footer>
+                <div class="footer">                       
+                    <hr  size="3px" color ="grey">                                
+                        <div class="half">
+                            <span>ABOUT</span>
+                            <span>BLOG</span>
+                            <span>LICENSES</span>
+                        </div>
+                        <div class="text-right">
+                            <span>2019 - made with love</span> 
+                        </div>                                 
+                
+                </div>
+            </footer>
+       </div>
+       
+    </div>
+    <script>
+   function mouse_over()
+   {
+    document.getElementById("dashimg").src="dashboard_white.svg";
+    console.log();
+   }
+   
+   function mouse_out()
+   {
+    document.getElementById("dashimg").src="dashboard_gray.svg";
+   }
+   function mouse_over1()
+   {
+    document.getElementById("userli").src="account_white.svg";
+    console.log();
+   }
+   
+   function mouse_out1()
+   {
+    document.getElementById("userli").src="account_gray.svg";
+   }
+    </script>
+</body>
+</html>
